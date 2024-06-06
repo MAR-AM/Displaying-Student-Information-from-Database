@@ -1,5 +1,5 @@
 <?php 
-        $conn  = new PDO('mysql:host=localhost; dbname=centre_formation','Mama','Mama@123@');
+        $conn  = new PDO('mysql:host=localhost; dbname=centre_formation','Mama','******');
 
         $requete = "SELECT * FROM etudiant";
         $resultat = $conn->query($requete);
